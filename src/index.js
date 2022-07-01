@@ -12,11 +12,11 @@ import store from './Store/store';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>
+    
     <Provider store = {store}>
       <Main />
     </Provider>
-    </div>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
